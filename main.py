@@ -47,10 +47,7 @@ async def read_items(q: Annotated[str | None, Query(max_length=50)] = None):
         results.update({"q": q})
     return results
 
-
-
-
-
+#
 
 # fixed something
 
